@@ -10,12 +10,28 @@ package com.mycompany.pertemuan10no1;
  */
 public class Aritmatika3 {
     int angka;
-
+    
     void setTambah(int bil1, int bil2) { 
-        angka = bil1 + bil2;
+        angka= bil1+bil2;
     }
-
-    int getTambah() {
+    
+    void setPengurangan(int bil1, int bil2) { 
+        angka= bil1-bil2;
+    }
+    
+    void setPerkalian(int bil1, int bil2) { 
+        angka= bil1*bil2;
+    }
+    
+    void setPembagian(int bil1, int bil2) { 
+        angka= bil1/bil2;
+    }
+    
+    void setPangkat(int bil1, int bil2) { 
+        angka= bil1^bil2;
+    }
+    
+    int getAngka() {
         return angka;
     }
 }

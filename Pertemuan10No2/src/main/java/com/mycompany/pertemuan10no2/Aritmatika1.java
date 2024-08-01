@@ -9,31 +9,25 @@ package com.mycompany.pertemuan10no2;
  * @author dikah
  */
 public class Aritmatika1 {
-     private double bilangan1;
-    private double bilangan2;
-
-    public Aritmatika1(double bilangan1, double bilangan2) {
-        this.bilangan1 = bilangan1;
-        this.bilangan2 = bilangan2;
+      int angka;
+    
+    void setPengurangan(int bilangan1, int bilangan2) { 
+        angka= bilangan1-bilangan2;
     }
-
-    public double pengurangan() {
-        return bilangan1 - bilangan2;
+    
+    void setPerkalian(int bilangan1, int bilangan2) { 
+        angka= bilangan1*bilangan2;
     }
-
-    public double perkalian() {
-        return bilangan1 * bilangan2;
+    
+    void setPembagian(int bilangan1, int bilangan2) { 
+        angka= bilangan1/bilangan2;
     }
-
-    public double pembagian() {
-        if (bilangan2 != 0) {
-            return bilangan1 / bilangan2;
-        } else {
-            throw new ArithmeticException("Pembagian dengan nol tidak diperbolehkan");
-        }
+    
+    void setPangkat(int bilangan1, int bilangan2) { 
+        angka= bilangan1^bilangan2;
     }
-
-    public double pangkat() {
-        return Math.pow(bilangan1, bilangan2);
+    
+    int getAngka() {
+        return angka;
     }
 }

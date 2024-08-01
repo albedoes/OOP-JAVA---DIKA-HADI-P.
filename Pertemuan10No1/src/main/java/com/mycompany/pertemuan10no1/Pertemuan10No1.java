@@ -9,38 +9,26 @@ package com.mycompany.pertemuan10no1;
  * @author dikah
  */
 public class Pertemuan10No1 extends Aritmatika3 {
+    
+        public static void main(String[] args) {
+        Aritmatika3 aritmatikaku = new Aritmatika3();
+        int a = 10, b = 20;
 
-    public int pengurangan(int a, int b) {
-        return a - b;
-    }
+        aritmatikaku.setTambah(a, b);
+        System.out.println("Bilangan 1= " + a);
+        System.out.println("Bilangan 2= " + b);
+        System.out.println("Hasil Pertambahan " + aritmatikaku.getAngka());
 
-    public int perkalian(int a, int b) {
-        return a * b;
-    }
+        aritmatikaku.setPengurangan(a, b);
+        System.out.println("Hasil Pengurangan " + aritmatikaku.getAngka());
 
-    public int pembagian(int a, int b) {
-        if (b != 0) {
-            return a / b;
-        } else {
-            throw new ArithmeticException("Pembagian dengan nol tidak diperbolehkan");
-        }
-    }
+        aritmatikaku.setPerkalian(a, b);
+        System.out.println("Hasil Perkalian " + aritmatikaku.getAngka());
 
-    public double pangkat(int a, int b) {
-        return Math.pow(a, b);
-    }
+        aritmatikaku.setPembagian(a, b);
+        System.out.println("Hasil Pembagian " + aritmatikaku.getAngka());
 
-    public static void main(String[] args) {
-        Pertemuan10No1 aritmatika = new Pertemuan10No1();
-        
-        int a = 5, b = 3;
-        
-        aritmatika.setTambah(a, b);
-        System.out.println("Penjumlahan: " + aritmatika.getTambah());
-
-        System.out.println("Pengurangan: " + aritmatika.pengurangan(a, b));
-        System.out.println("Perkalian: " + aritmatika.perkalian(a, b));
-        System.out.println("Pembagian: " + aritmatika.pembagian(a, b));
-        System.out.println("Pangkat: " + aritmatika.pangkat(a, b));
+        aritmatikaku.setPangkat(a, b);
+        System.out.println("Hasil Pangkat " + aritmatikaku.getAngka());
     }
 }
