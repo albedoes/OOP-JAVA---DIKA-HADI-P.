@@ -12,7 +12,7 @@ public class Pertemuan10No2 {
 
     public static void main(String[] args) {
     Aritmatika1 aritmatikaku = new Aritmatika1();
-        int bilangan1 = 11, bilangan2 = 22;
+        int bilangan1 = 10, bilangan2 = 5;
         
         System.out.println("Bilangan 1= " + bilangan1);
         System.out.println("Bilangan 2= " + bilangan2);
