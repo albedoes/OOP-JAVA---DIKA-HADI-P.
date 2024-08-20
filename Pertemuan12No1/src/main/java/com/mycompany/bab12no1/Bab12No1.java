@@ -6,7 +6,7 @@ package com.mycompany.bab12no1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 
 public class Bab12No1 extends Pegawai{
