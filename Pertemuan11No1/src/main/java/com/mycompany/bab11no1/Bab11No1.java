@@ -6,7 +6,7 @@ package com.mycompany.bab11no1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 
 public class Bab11No1 {
