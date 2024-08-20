@@ -6,7 +6,7 @@ package com.mycompany.bab11no2;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 import java.util.Scanner;
 
