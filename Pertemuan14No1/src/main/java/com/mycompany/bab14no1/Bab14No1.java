@@ -6,7 +6,7 @@ package com.mycompany.bab14no1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 
 public class Bab14No1 extends abstrakHewan{
