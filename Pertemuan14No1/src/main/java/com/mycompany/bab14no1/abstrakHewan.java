@@ -6,7 +6,7 @@ package com.mycompany.bab14no1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 abstract class abstrakHewan {
      public abstract void suara();
