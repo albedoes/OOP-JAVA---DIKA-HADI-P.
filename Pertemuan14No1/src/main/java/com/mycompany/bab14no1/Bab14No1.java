@@ -9,9 +9,9 @@ package com.mycompany.bab14no1;
  * @author dikah
  */
 
-public class Bab14No1 extends abstrakHewan{
+public class Bab14No1 extends burung{
     public void suara() {
-        System.out.println("Suara T-rex RAWWRR!!!");
+        System.out.println("Suara Burung Mencicit");
     }
     
     public static void main(String[] args) {
