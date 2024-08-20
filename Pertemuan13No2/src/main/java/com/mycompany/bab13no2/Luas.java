@@ -6,7 +6,7 @@ package com.mycompany.bab13no2;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 public class Luas {
     int hasil;
