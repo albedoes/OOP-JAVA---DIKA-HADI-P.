@@ -6,7 +6,7 @@ package com.mycompany.bab13no1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 public class Kalkulator {
     int tambah(int a, int b) {
