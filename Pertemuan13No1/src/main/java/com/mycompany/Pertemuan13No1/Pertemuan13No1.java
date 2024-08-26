@@ -6,7 +6,7 @@ package com.mycompany.Pertemuan13No1;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 public class Pertemuan13No1 {
 
