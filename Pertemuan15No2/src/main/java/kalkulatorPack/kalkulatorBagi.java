@@ -6,7 +6,7 @@ package kalkulatorPack;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 public class kalkulatorBagi {
     public int bagi(int a, int b) {

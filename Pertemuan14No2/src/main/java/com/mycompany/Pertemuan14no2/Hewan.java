@@ -2,14 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package kalkulatorPack;
+package com.mycompany.Pertemuan14no2;
 
 /**
  *
  * @author dikah
  */
-public class kalkulatorKali {
-    public int kali(int a, int b) {
-        return a * b;
-    }
+abstract class Hewan {
+    protected abstract void suara();
 }

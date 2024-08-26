@@ -6,7 +6,7 @@ package kalkulatorPack;
 
 /**
  *
- * @author iMOp
+ * @author dikah
  */
 public class Kalkulator {
     protected double tambah(double a, double b){
