@@ -8,6 +8,6 @@ package com.mycompany.Pertemuan14no2;
  *
  * @author dikah
  */
-abstract class Hewan {
+abstract class AbstrakHewan {
     protected abstract void suara();
 }

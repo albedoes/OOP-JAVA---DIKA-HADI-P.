@@ -9,6 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>com.mycompany.bab15no2.Bab15No2</exec.mainClass>
+        <exec.mainClass>com.mycompany.Pertemuan15no2.Pertemuan15No2</exec.mainClass>
     </properties>
+    <name>Pertemuan15No2</name>
 </project>

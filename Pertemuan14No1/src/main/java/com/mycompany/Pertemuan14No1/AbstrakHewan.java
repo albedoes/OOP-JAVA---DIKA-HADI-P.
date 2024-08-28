@@ -8,7 +8,7 @@ package com.mycompany.Pertemuan14No1;
  *
  * @author dikah
  */
-abstract class abstrakHewan {
+abstract class AbstrakHewan {
      public abstract void suara();
 
      public void suara2(){
